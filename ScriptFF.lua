@@ -1,6 +1,6 @@
-
- game.StarterGui:SetCore("SendNotification",{Title = "Waiting", Text = "It may take some time", Duration = 15})
 wait(15)
+game.StarterGui:SetCore("SendNotification",{Title = "Waiting", Text = "It may take some time", Duration = 15})
+wait(5)
 local Player = game.Players.LocalPlayer
 local PlayerName = Player.Name
 if PlayerName == "Matrixplayer577" or  PlayerName ==  "MasterC502" or  PlayerName ==  "ElKingCookieDeSarah"
@@ -235,7 +235,7 @@ local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-1058, 643, -900)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
-wait(94)
+wait(64)
 game:GetService("TeleportService"):Teleport(7220986579)
     else
         game:GetService("TeleportService"):Teleport(4042427666)
