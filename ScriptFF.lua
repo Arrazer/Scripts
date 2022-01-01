@@ -235,7 +235,7 @@ local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-1058, 643, -900)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
-wait(64)
+wait(94)
 game:GetService("TeleportService"):Teleport(7220986579)
     else
         game:GetService("TeleportService"):Teleport(4042427666)
