@@ -1,3 +1,14 @@
+wait(15)
+game.StarterGui:SetCore("SendNotification",{Title = "Waiting", Text = "It may take some time", Duration = 15})
+wait(5)
+local Player = game.Players.LocalPlayer
+local PlayerName = Player.Name
+if PlayerName == "Matrixplayer577" or  PlayerName ==  "MasterC502" or  PlayerName ==  "ElKingCookieDeSarah"
+or  PlayerName ==  "beto22909" or  PlayerName == "EIKingCookieDeSarah" or  PlayerName == "Nosoymatrixplayer577" or  PlayerName == "Im_SneaX" 
+    or  PlayerName == "kerenAmorap" or  PlayerName == "XxNoelle_ofRoyaltyxX" or  PlayerName == "yanpierr3" then 
+local players = game.Players:GetPlayers()
+local amt = #players
+if amt < 2 and game.PlaceId == 7220986579 then
     local ToFly = "y" 
 
 repeat wait() 
@@ -81,6 +92,21 @@ end
 end)
 Fly()
 
+    local args = {
+    [1] = "SummonChamp",
+    [2] = 1
+}
+
+game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
+    wait(5)
+local vim = game:service'VirtualInputManager'
+    vim:SendKeyEvent(true, "Eight", false, game)
+    wait(.7)
+   function limitless()
+    local vim = game:service'VirtualInputManager'
+    vim:SendKeyEvent(true, "X", false, game)
+    wait(.1)
+end
     local vim = game:service'VirtualInputManager'
     vim:SendKeyEvent(true, "Y", false, game)
     wait(.7)
@@ -129,6 +155,7 @@ Fly()
 end
 delay(11, function()
 macros()
+limitless()                
 end)
 -- Spawn
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
@@ -137,8 +164,10 @@ local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(10)
 delay(19, function()
+   limitless()             
 macros()
 wait(5)
+   limitless()           
 macros()
 
 end)
@@ -150,7 +179,9 @@ pl.CFrame = location
 wait(17)
 delay(34, function()
 macros()
+   limitless()             
 wait(5)
+    limitless()
 macros()
 end)
 -- Segunda etapa
@@ -165,6 +196,7 @@ local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(20)
 delay(30, function()
+  limitless()
 macros()
 end)
 -- tercera etapa
@@ -179,6 +211,7 @@ local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(13)
 delay(19, function()
+  limitless()
 macros()
 end)
 --Cuarta etapa
@@ -200,7 +233,26 @@ local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(1)
 for i=1,9 do
+     limitless()
     macros()
 end
 wait(1)
 game:GetService("TeleportService"):Teleport(4042427666, LocalPlayer)
+elseif game.PlaceId == 4042427666 then
+game.StarterGui:SetCore("SendNotification",{Title = "Registered user", Text = "UwU", Duration = 15})
+--teleport
+local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-1058, 643, -900)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+pl.CFrame = location
+wait(64)
+game:GetService("TeleportService"):Teleport(7220986579)
+    else
+        game:GetService("TeleportService"):Teleport(4042427666)
+end
+
+    else 
+        game.StarterGui:SetCore("SendNotification",{Title = "Unregistered user", Text = "pay for the script lol, go and play adopt me", Duration = 10})
+        wait(6)
+        game:GetService("TeleportService"):Teleport(920587237, LocalPlayer)
+    end
