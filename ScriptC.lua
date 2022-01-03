@@ -94,7 +94,7 @@ Fly()
 
     local args = {
     [1] = "SummonChamp",
-    [2] = 4
+    [2] = 8
 }
 
 game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
@@ -167,10 +167,12 @@ local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(10)
 delay(19, function()
-   limitless()             
+   limitless()
+                limitless()
 macros()
 wait(5)
-   limitless()           
+   limitless()
+                limitless()
 macros()
 
 end)
@@ -182,10 +184,13 @@ pl.CFrame = location
 wait(17)
 delay(34, function()
 macros()
-   limitless()             
+   limitless()
+                limitless()
 wait(5)
     limitless()
+                
 macros()
+                limitless()
 end)
 -- Segunda etapa
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
@@ -201,6 +206,7 @@ wait(20)
 delay(30, function()
   limitless()
 macros()
+                limitless()
 end)
 -- tercera etapa
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
@@ -216,6 +222,7 @@ wait(13)
 delay(19, function()
   limitless()
 macros()
+                limitless()
 end)
 --Cuarta etapa
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
@@ -238,6 +245,7 @@ wait(1)
 for i=1,9 do
      limitless()
     macros()
+            limitless()
 end
 wait(1)
 game:GetService("TeleportService"):Teleport(4042427666, LocalPlayer)
