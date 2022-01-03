@@ -4,8 +4,8 @@ wait(5)
 local Player = game.Players.LocalPlayer
 local PlayerName = Player.Name
 if PlayerName == "Matrixplayer577" or  PlayerName ==  "MasterC502" or  PlayerName ==  "ElKingCookieDeSarah"
-or  PlayerName ==  "beto22909" or  PlayerName == "EIKingCookieDeSarah" or  PlayerName == "Nosoymatrixplayer577"
-   or  PlayerName == "kerenAmorap" or  PlayerName == "XxNoelle_ofRoyaltyxX" or  PlayerName == "yanpierr3" then 
+or  PlayerName ==  "beto22909" or  PlayerName == "EIKingCookieDeSarah" or  PlayerName == "Nosoymatrixplayer577" or  
+   PlayerName == "kerenAmorap" or  PlayerName == "XxNoelle_ofRoyaltyxX" or  PlayerName == "yanpierr3" then 
 local players = game.Players:GetPlayers()
 local amt = #players
 if amt < 2 and game.PlaceId == 7220986579 then
