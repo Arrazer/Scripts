@@ -231,13 +231,13 @@ macros()
 end)
 --Cuarta etapa
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-195, 434, 210)
+local location = CFrame.new(-195, 438, 210)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(17)
 --quinta etapa
 local pl       = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-260, 465, 510)
+local location = CFrame.new(-260, 469, 510)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(15)
