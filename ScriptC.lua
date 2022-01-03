@@ -94,7 +94,7 @@ Fly()
 
     local args = {
     [1] = "SummonChamp",
-    [2] = 1
+    [2] = 4
 }
 
 game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
@@ -102,9 +102,12 @@ game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServ
 local vim = game:service'VirtualInputManager'
     vim:SendKeyEvent(true, "Eight", false, game)
     wait(.7)
+        local vim = game:service'VirtualInputManager'
+    vim:SendKeyEvent(true, "Four", false, game)
+    wait(.7)
    function limitless()
     local vim = game:service'VirtualInputManager'
-    vim:SendKeyEvent(true, "X", false, game)
+    vim:SendKeyEvent(true, "Z", false, game)
     wait(.1)
 end
     local vim = game:service'VirtualInputManager'
