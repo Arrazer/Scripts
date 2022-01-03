@@ -197,12 +197,12 @@ macros()
 end)
 -- Segunda etapa
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(163, 389, -293)
+local location = CFrame.new(163, 380, -293)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(13)
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-20, 415, -289)
+local location = CFrame.new(-20, 405, -289)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(20)
@@ -214,12 +214,12 @@ macros()
 end)
 -- tercera etapa
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-151, 400, -307)
+local location = CFrame.new(-151, 390, -307)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(13)
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-222, 399, -199)
+local location = CFrame.new(-222, 389, -199)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(13)
@@ -231,13 +231,13 @@ macros()
 end)
 --Cuarta etapa
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-195, 444, 210)
+local location = CFrame.new(-195, 434, 210)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(17)
 --quinta etapa
 local pl       = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-260, 475, 510)
+local location = CFrame.new(-260, 465, 510)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(15)
