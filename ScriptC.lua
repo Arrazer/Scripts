@@ -180,7 +180,7 @@ macros()
 end)
 --Primera etapa
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(380, 380, -225)
+local location = CFrame.new(380, 375, -225)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(17)
