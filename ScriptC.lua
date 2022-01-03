@@ -243,7 +243,7 @@ pl.CFrame = location
 wait(15)
 --ainz
 local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
-local location = CFrame.new(-285, 447, 770)
+local location = CFrame.new(-285, 440, 770)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(1)
