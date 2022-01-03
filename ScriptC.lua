@@ -167,8 +167,9 @@ local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(10)
 delay(19, function()
-  
+  limitless()
    limitless()
+     limitless()
 macros()
 wait(5)
    limitless()
@@ -183,11 +184,13 @@ local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
 wait(17)
 delay(34, function()
-   limitless()             
+   limitless()
+                limitless()
 macros()
       
 wait(5)
-    limitless()               
+    limitless()   
+                limitless()
 macros()
                
 end)
@@ -204,6 +207,7 @@ pl.CFrame = location
 wait(20)
 delay(30, function()
   limitless()
+                limitless()
 macros()
               
 end)
@@ -220,6 +224,7 @@ pl.CFrame = location
 wait(13)
 delay(19, function()
   limitless()
+                limitless()
 macros()
              
 end)
@@ -243,6 +248,7 @@ pl.CFrame = location
 wait(1)
 for i=1,9 do
      limitless()
+            limitless()
     macros()
            
 end
