@@ -13,7 +13,7 @@ if amt < 2 and game.PlaceId == 7220986579 then
     ["Auto Click Keybind"] = "Nine", 
     ["Lock Mouse Position Keybind"] = "X",
     ["Right Click"] = false,
-    ["GUI"] = true, 
+    ["GUI"] = false, 
     ["Delay"] = 1 
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BimbusCoder/Script/main/Auto%20Clicker.lua"))()
