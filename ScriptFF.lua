@@ -9,6 +9,15 @@ or  PlayerName ==  "beto22909" or  PlayerName == "EIKingCookieDeSarah" or  Playe
 local players = game.Players:GetPlayers()
 local amt = #players
 if amt < 2 and game.PlaceId == 7220986579 then
+      getgenv().Settings = {
+    ["Auto Click Keybind"] = "Nine", 
+    ["Lock Mouse Position Keybind"] = "X",
+    ["Right Click"] = false,
+    ["GUI"] = true, 
+    ["Delay"] = 1 
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BimbusCoder/Script/main/Auto%20Clicker.lua"))()
+            
     local ToFly = "y" 
 
 repeat wait() 
