@@ -9,15 +9,40 @@ or  PlayerName ==  "beto22909" or  PlayerName == "EIKingCookieDeSarah" or  Playe
 local players = game.Players:GetPlayers()
 local amt = #players
 if amt < 2 and game.PlaceId == 7220986579 then
-      getgenv().Settings = {
-    ["Auto Click Keybind"] = "Nine", 
+
+getgenv().Settings = {
+    ["Auto Click Keybind"] = "Z", 
     ["Lock Mouse Position Keybind"] = "X",
     ["Right Click"] = false,
     ["GUI"] = false, 
-    ["Delay"] = 1 
+    ["Delay"] = 0 
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BimbusCoder/Script/main/Auto%20Clicker.lua"))()
-            
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BimbusCoder/Script/main/Auto%20Clicker.lua"))()   
+    local vim = game:service'VirtualInputManager'
+    vim:SendKeyEvent(true, "Z", false, game)
+    wait(.7)
+
+local time = 1.05 --decrease if too slow increase if too fast
+
+click = false
+m = game.Players.LocalPlayer:GetMouse()
+m.KeyDown:connect(function(key)
+if key == "c" then
+if click == true then click = false
+elseif
+click == false then click = true
+
+while click == true do 
+wait(time)
+mouse1click()
+end
+end
+end
+end)
+    local vim = game:service'VirtualInputManager'
+    vim:SendKeyEvent(true, "C", false, game)
+    wait(.7)
+    
     local ToFly = "y" 
 
 repeat wait() 
@@ -245,6 +270,8 @@ local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
 local location = CFrame.new(-1058, 643, -900)
 local humanoid = game.Players.LocalPlayer.Character.Humanoid
 pl.CFrame = location
+
+    
 wait(64)
 game:GetService("TeleportService"):Teleport(7220986579)
     else
