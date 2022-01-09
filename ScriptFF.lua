@@ -3,7 +3,7 @@ game.StarterGui:SetCore("SendNotification",{Title = "Waiting", Text = "It may ta
 wait(5)
 local Player = game.Players.LocalPlayer
 local PlayerName = Player.Name
-if PlayerName == "Matrixplayer577" or  PlayerName ==  "MasterC502" or  PlayerName ==  "ElKingCookieDeSarah"
+if PlayerName == "ShenTheKing78" or  PlayerName ==  "MasterC502" or  PlayerName ==  "ElKingCookieDeSarah"
 or  PlayerName ==  "beto22909" or  PlayerName == "EIKingCookieDeSarah" or  PlayerName == "Nosoymatrixplayer577" or  
    PlayerName == "kerenAmorap" or  PlayerName == "XxNoelle_ofRoyaltyxX" or  PlayerName == "yanpierr3" or  PlayerName == "QueenOdinX"  or  PlayerName == "JASboy53" or  PlayerName == "QueenOdinz" or  PlayerName == "Mattlapatata12" then 
 local players = game.Players:GetPlayers()
